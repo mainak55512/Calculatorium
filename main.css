@@ -1,0 +1,29 @@
+.button{
+    -fx-background-color:rgb(6, 177, 120);
+    -fx-background-radius: 15;
+}
+.button:hover{
+    -fx-text-fill:whitesmoke;
+}
+#plus{
+    -fx-background-color:rgb(230, 216, 34);
+
+}
+#minus{
+    -fx-background-color:rgb(230, 216, 34);
+}
+#multiply{
+    -fx-background-color:rgb(230, 216, 34);
+}
+#division{
+    -fx-background-color:rgb(230, 216, 34);
+}
+#clear{
+    -fx-background-color:rgb(240, 76, 47);
+}
+.root{
+    -fx-background-color:rgb(50, 51, 59);
+}
+#display{
+    -fx-background-radius: 15;
+}
