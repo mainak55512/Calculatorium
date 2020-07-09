@@ -2,7 +2,7 @@
 
 # give here your javafx11 folder's full path in CLASSPATH & dest folder's full path in DEST:
 #--------------------------------------------------------------------------------------------
-export CLASSPATH=/home/mainak/programs/Java_Programmes_2020/Calculator/javafx11/lib
+export CLASSPATH=/home/mainak/programs/Java_Programmes_2020/javafx11/lib/
 export DEST=/home/mainak/programs/Java_Programmes_2020/Calculator/dest
 
 # after -d give dest folder's full path:
