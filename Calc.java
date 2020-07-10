@@ -20,10 +20,10 @@ public class Calc extends Application {
 
         FXMLLoader loader = new FXMLLoader();
         URL FXMLfile = new URL("file:///home/mainak/programs/Java_Programmes_2020/Calculator/main.fxml");
+        URL S_sheet = new URL("file:///home/mainak/programs/Java_Programmes_2020/Calculator/main.css");
         loader.setLocation(FXMLfile);
         Parent root = loader.load();
         Scene scene = new Scene(root);
-        URL S_sheet = new URL("file:///home/mainak/programs/Java_Programmes_2020/Calculator/main.css");
         scene.getStylesheets().add(S_sheet.toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.setResizable(false);
